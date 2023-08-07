@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 name  : Angular Deploy Workflow
-on    : push
+on    : [push, workflow_dispatch]
 jobs  :
   test  :
     runs-on  : windows-2022
